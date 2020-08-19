@@ -7,6 +7,15 @@ nav{
 	background-color: black;
 }
 
-ul li{
-	display: inline;
+.navbar-toggler{
+	width: 47px;
+    height: 34px;
+}
+
+.navbar-toggler .navbar-toggler-icon{
+	width: 100%;
+    float: left;
+    height: 2px;
+	background-color: white;
+	margin-bottom: 5px;
 }

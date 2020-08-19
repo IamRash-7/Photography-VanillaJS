@@ -8,18 +8,35 @@
 	<title>Practice1</title>
 </head>
 <body>
-	<nav class="navbar navbar-dark">
-		
-		<a type="button" class="btn btn-light" href="index.html">Photography</a>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        <div class="navbar-collapse collapse w-100 order-1 order-md-0 dual-collapse2">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">My Work</a>
+                </li>
+            </ul>
+        </div>
+        <div class="mx-auto order-0">
+            <a class="navbar-brand mx-auto" href="index.html">Photography</a>        
+        </div>
+        <div class="navbar-collapse collapse w-100 order-3 dual-collapse2">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".dual-collapse2">
+                <span class="navbar-toggler-icon"></span>
+        </button>
+</nav>
 
-		<ul class="navbar-nav mr-auto">
-			<li class="nav-item"> About Me </li>
-			<li class="nav-item"> My Work </li>
-			<li class="nav-item"> Contact</li>
-		</ul>
-		
-	</nav>
 
+
+	<script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
 	<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 </body>
 </html>
