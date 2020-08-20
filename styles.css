@@ -8,19 +8,9 @@
     src: url('./font/Epilogue-Medium.ttf');
 }
 
-* {
-	margin: 0;
-	padding: 0;
-}
-
 body{
 	background-color: skyblue;
 	color: white;
-}
-
-.navbar {
-	padding: 5px;
-	margin: 5px;
 }
 
 .navbar-toggler{
@@ -34,16 +24,6 @@ body{
     height: 2px;
 	background-color: white;
 	margin-bottom: 5px;
-}
-
-.navbar {
-	color: #fff;
-	font-size: 20px;
-}
-
-.logo {
-	font-family: Billyana;
-	font-size: 30px;
 }
 
 header {
@@ -66,4 +46,17 @@ header {
 	font-size: 100px;
 	font-weight: 600;
 	font-family: Billyana;
+}
+
+.nav-link {
+	font-family: Epilogue;
+	font-size: 18px;
+}
+
+.btn-instagram{
+	background-color:#E1306C;
+}
+
+footer{
+	background-color: pink;
 }
