@@ -8,9 +8,9 @@
     src: url('./font/Epilogue-Medium.ttf');
 }
 
-@media screen and (min-width:992px) {
-        .container{ padding-top:50px;}
-    }
+/* @media screen and (min-width:992px) {
+    .container{ padding-top:50px; }
+} */
 
 body{
 	background-color: skyblue;
@@ -97,9 +97,11 @@ footer{
 }
 
 .bg-dark{
-	background: transparent !important;
+    background: transparent !important;
+    transition: 0.2s ease-out;
 }
 
-
-
-
+.bg-black{
+    background: #000;
+    transition: 0.5s ease-in;
+}
