@@ -8,6 +8,10 @@
     src: url('./font/Epilogue-Medium.ttf');
 }
 
+@media screen and (min-width:992px) {
+        .container{ padding-top:50px;}
+    }
+
 body{
 	background-color: skyblue;
 	color: black;
@@ -33,17 +37,10 @@ header {
 	background-position: center;
 }
 
-.title {
-	position: absolute;
-	top: 50%;
-	left:50%;
-	transform: translate(-50%, -50%);
-	opacity: 1;
-}
 
-.title h1 {
+.title  {
 	color: #fff;
-	font-size: 100px;
+	font-size: 50px;
 	font-weight: 600;
 	font-family: Billyana;
 }
@@ -54,7 +51,8 @@ header {
 }
 
 .btn-instagram{
-	background-color:#E1306C;
+	background-color:black;
+	color: #00acee;
 }
 
 h2 {
@@ -93,7 +91,15 @@ h2 {
 }
 
 footer{
-	background-color: pink;
+
+	background-color: black;
+	color: white;
 }
+
+.bg-dark{
+	background: transparent !important;
+}
+
+
 
 
