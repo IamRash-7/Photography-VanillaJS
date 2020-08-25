@@ -10,7 +10,7 @@
 
 
 body{
-	background-color: skyblue;
+	background-color: white;
 	color: black;
 }
 
@@ -47,10 +47,10 @@ header {
 	font-size: 18px;
 }
 
-.btn-instagram{
-	background-color:black;
-	color: #00acee;
+.fa-instagram{
+	color: #E1306C;
 }
+
 
 h2 {
 	text-align: center;
