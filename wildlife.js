@@ -37,3 +37,11 @@ toShow.forEach(ele=>{
 	observer.observe(ele)
 	console.log(ele)
 })
+
+//LightBox
+
+lightbox.option({
+      'resizeDuration': 200,
+      'wrapAround': true,
+      'disableScrolling':true
+    })
