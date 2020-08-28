@@ -14,10 +14,10 @@
 }
 
 header{
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./assets/images/bg-masthead.jpg');
-    height: 100vh;
-    background-size: cover;
-    background-position: center;
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./assets/images/1.jpg');
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
 }
 
 .navbar-toggler{
@@ -138,8 +138,7 @@ footer{
 .inline-photo {
   opacity: 0;
   transform: translateY(7em);
-  transition: transform 4s .25s cubic-bezier(0,1,.3,1),
-              opacity .3s .25s ease-out;
+  transition: transform 4s .25s cubic-bezier(0,1,.3,1), opacity .3s .25s ease-out;
 }
 
 .inline-photo.is-visible {
