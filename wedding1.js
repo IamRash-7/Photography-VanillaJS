@@ -17,7 +17,7 @@ function myFunction() {
 
 //Images Animation
 
-const toShow= document.querySelectorAll('.show-on-scroll');
+const toShow = document.querySelectorAll('.show-on-scroll');
 
 observer= new IntersectionObserver((entries)=>{
 	entries.forEach(entry=>{
