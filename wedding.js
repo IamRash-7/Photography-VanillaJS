@@ -55,12 +55,6 @@ function isElementInViewport(el) {
 $( document ).ready(function() {
 
   // Carousel
-
-  $(".carousel").carousel({
-      interval: false,
-      pause: true
-  });
-
   $( ".carousel .carousel-inner" ).swipe( {
   swipeLeft: function ( event, direction, distance, duration, fingerCount ) {
       this.parent( ).carousel( 'next' );
