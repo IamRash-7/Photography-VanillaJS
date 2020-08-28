@@ -54,34 +54,6 @@ body{
   font-family: Billyana;
 }
 
-.grid-layout {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    grid-gap: 10px;
-    grid-auto-rows: minmax(220px, auto);
-    grid-auto-flow: dense;
-    padding: 10px;
-}
-
-.grid-item {
-    padding: 1rem;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #929796;
-    background-color: #333;
-    border-radius: 5px;
-}
-
-.span-2 {
-    grid-column-end: span 2;
-    grid-row-end: span 1;
-}
-
-.grid-item-1 {
-	background: url(assets/images/div1.png) 0px 0px/240px 220px;
-}
-
 footer{
 	background-color: black;
 	color: white;
