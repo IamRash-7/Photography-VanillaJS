@@ -19,7 +19,6 @@ function myFunction(x) {
 
 //Images Animation
 
-
 const toShow= document.querySelectorAll('.show-on-scroll');
 
 observer= new IntersectionObserver((entries)=>{

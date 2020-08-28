@@ -49,8 +49,9 @@ body{
 }
 
 
-h2 {
-	text-align: center;
+.container h3 {
+  text-align: center;
+  font-family: Billyana;
 }
 
 .grid-layout {
@@ -70,9 +71,6 @@ h2 {
     color: #929796;
     background-color: #333;
     border-radius: 5px;
-    &:nth-child(odd) {
-        background-color: #424242;
-    }
 }
 
 .span-2 {
