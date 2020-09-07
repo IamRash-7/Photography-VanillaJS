@@ -8,16 +8,14 @@
     src: url('./font/Epilogue-Medium.ttf');
 }
 
-@font-face {
+@font-face{
     font-family: 'Quintessential', cursive;
     src: url('./font/Quintessential-Regular.ttf');
 }
 
-header{
-	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url('./assets/images/1.jpg');
-  height: 100vh;
-  background-size: cover;
-  background-position: center;
+body{
+	background-color: white;
+	color: black;
 }
 
 .navbar-toggler{
@@ -51,37 +49,10 @@ header{
 }
 
 
-.container h3 {
+.container h1 {
   text-align: center;
   font-family: Billyana;
-}
-
-.grid-layout {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-    grid-gap: 10px;
-    grid-auto-rows: minmax(220px, auto);
-    grid-auto-flow: dense;
-    padding: 10px;
-}
-
-.grid-item {
-    padding: 1rem;
-    font-size: 14px;
-    font-weight: bold;
-    text-transform: uppercase;
-    color: #929796;
-    background-color: #333;
-    border-radius: 5px;
-}
-
-.span-2 {
-    grid-column-end: span 2;
-    grid-row-end: span 1;
-}
-
-.grid-item-1 {
-	background: url(assets/images/div1.png) 0px 0px/240px 220px;
+  font-size: 50px;
 }
 
 footer{
@@ -90,9 +61,8 @@ footer{
 }
 
 .bg-dark{
-    background: transparent !important;
+    background: pink !important;
     transition: 0.2s ease-out;
-
 }
 
 .bg-black{
@@ -138,7 +108,8 @@ footer{
 .inline-photo {
   opacity: 0;
   transform: translateY(7em);
-  transition: transform 4s .25s cubic-bezier(0,1,.3,1), opacity .3s .25s ease-out;
+  transition: transform 4s .25s cubic-bezier(0,1,.3,1),
+              opacity .3s .25s ease-out;
 }
 
 .inline-photo.is-visible {
@@ -151,22 +122,6 @@ footer{
     transform: translateY(-100px);
     transition: transform 2s;
     will-change: transform, opacity;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    justify-content: center;
-    padding: 40px 80px 40px 80px;
-    border: 1px solid;
-    box-shadow: 30px 30px 20px rgba(0,0,0,0.2);
-}
-
-.wildlife span {
-    height: 1px;
-    width: 100px;
-    background: black;
-    margin-top: 20px;
-    margin-bottom: 30px;
 }
 
 .wildlife.is-visible{
