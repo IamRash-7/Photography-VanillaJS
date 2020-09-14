@@ -1,16 +1,16 @@
 @font-face {
     font-family: 'Billyana';
-    src: url('./font/BillyanaPersonalUseOnly.ttf');
+    src: url('../font/BillyanaPersonalUseOnly.ttf');
 }
 
 @font-face {
     font-family: 'Epilogue';
-    src: url('./font/Epilogue-Medium.ttf');
+    src: url('../font/Epilogue-Medium.ttf');
 }
 
 @font-face{
     font-family: 'Quintessential', cursive;
-    src: url('./font/Quintessential-Regular.ttf');
+    src: url('../font/Quintessential-Regular.ttf');
 }
 
 body{

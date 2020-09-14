@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Billyana';
-    src: url('./font/BillyanaPersonalUseOnly.ttf');
+    src: url('../font/BillyanaPersonalUseOnly.ttf');
 }
 
 @font-face {
     font-family: 'Epilogue';
-    src: url('./font/Epilogue-Medium.ttf');
+    src: url('../font/Epilogue-Medium.ttf');
 }
 
 body{
@@ -39,13 +39,15 @@ body{
 	font-size: 18px;
 }
 
-.fa-instagram{
-	color: #E1306C;
+.container h2 {
+    align-items: center;
+    font-family: Billyana;
+    font-size: 50px;
+    color: #616161;
 }
 
-
-h2 {
-	text-align: center;
+.fa-instagram{
+	color: #E1306C;
 }
 
 .wrapper {
