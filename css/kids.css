@@ -107,9 +107,9 @@ footer{
 
 .kids{
   display: grid;
-  height: 400vh;
+  height: 200vh;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
   grid-template-areas: 
     "box1 box2 "
     "box3 box4"
@@ -136,7 +136,6 @@ img{
 }
 
 #box2 {
-    background: #1DE9B6;
     grid-area: box2;
 }
 
@@ -158,4 +157,29 @@ img{
 #box6 {
     background: #6FFFD2;
     grid-area: box6;
+}
+
+.text-block {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  background-color: rgba(205,207,210,0.6);
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 50%;
+}
+
+.wildlife{
+    opacity: 0;
+    transform: translateY(-100px);
+    transition: transform 2s;
+    will-change: transform, opacity;
+}
+
+.wildlife.is-visible{
+    opacity: 1;
+    transform: translateY(0px);
+    font-family: Quintessential;
+    color: #616161;
 }
