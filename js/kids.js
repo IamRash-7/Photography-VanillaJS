@@ -16,3 +16,22 @@ function myFunction(x) {
     Nav.classList.remove("bg-black");
   }
 }
+
+//Images Animation
+const toShow= document.querySelectorAll('.show-on-scroll');
+
+observer= new IntersectionObserver((entries)=>{
+	entries.forEach(entry=>{
+		if(entry.intersectionRatio>0){
+			entry.target.classList.add("is-visible");
+		}
+		else{
+			entry.target.classList.remove('is-visible');
+		}
+	})
+})
+
+toShow.forEach(ele=>{
+	observer.observe(ele)
+	console.log(ele)
+})
