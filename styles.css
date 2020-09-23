@@ -1,11 +1,11 @@
 @font-face {
     font-family: 'Billyana';
-    src: url('../font/BillyanaPersonalUseOnly.ttf');
+    src: url('./font/BillyanaPersonalUseOnly.ttf');
 }
 
 @font-face {
     font-family: 'Epilogue';
-    src: url('../font/Epilogue-Medium.ttf');
+    src: url('./font/Epilogue-Medium.ttf');
 }
 
 body{
