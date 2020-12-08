@@ -6,6 +6,6 @@ https://iamrash-7.github.io/Photography-VanillaJS/
 
 SCREENSHOTS:
 
-https://github.com/IamRash-7/Photography-VanillaJS/blob/master/screenshots/ph-2.PNG?raw=true
-https://github.com/IamRash-7/Photography-VanillaJS/blob/master/screenshots/ph1.PNG?raw=true
+![Screenshot1](https://github.com/IamRash-7/Photography-VanillaJS/blob/master/screenshots/ph-2.PNG?raw=true)
+![Screenshot2](https://github.com/IamRash-7/Photography-VanillaJS/blob/master/screenshots/ph1.PNG?raw=true)
 
