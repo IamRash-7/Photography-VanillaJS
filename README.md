@@ -3,6 +3,9 @@ A simple photography website created using HTML,CSS and JavaScript and hosted in
 
 https://iamrash-7.github.io/Photography-VanillaJS/
 
-![Optional Text](./screenshots/ph1.png)
-![Optional Text](./screenshots/ph-2.png)
+
+SCREENSHOTS:
+
+https://github.com/IamRash-7/Photography-VanillaJS/blob/master/screenshots/ph-2.PNG
+https://github.com/IamRash-7/Photography-VanillaJS/blob/master/screenshots/ph1.PNG
 
